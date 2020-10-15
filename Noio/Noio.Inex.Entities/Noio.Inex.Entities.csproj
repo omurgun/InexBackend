@@ -59,6 +59,7 @@
     <Compile Include="Concrete\GameCountry.cs" />
     <Compile Include="Concrete\GameDeveloper.cs" />
     <Compile Include="Concrete\GamePublisher.cs" />
+    <Compile Include="FullData\Data.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

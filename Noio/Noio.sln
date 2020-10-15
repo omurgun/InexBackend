@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Noio.Inex.Entities", "Noio.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Noio.Inex.WindowsFormsUI", "Noio.Inex.WindowsFormsUI\Noio.Inex.WindowsFormsUI.csproj", "{F04EDC5D-0987-4399-9A10-526DB898F27D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Noio.Inex.WebApi", "Noio.Inex.WebApi\Noio.Inex.WebApi.csproj", "{E3E2DED2-6B9E-4332-88E3-632237173797}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{F04EDC5D-0987-4399-9A10-526DB898F27D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F04EDC5D-0987-4399-9A10-526DB898F27D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F04EDC5D-0987-4399-9A10-526DB898F27D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3E2DED2-6B9E-4332-88E3-632237173797}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3E2DED2-6B9E-4332-88E3-632237173797}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3E2DED2-6B9E-4332-88E3-632237173797}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3E2DED2-6B9E-4332-88E3-632237173797}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

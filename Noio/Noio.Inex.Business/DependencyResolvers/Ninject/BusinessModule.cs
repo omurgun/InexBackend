@@ -40,7 +40,7 @@ namespace Noio.Inex.Business.DependencyResolvers.Ninject
             Bind<IComplexGameCountryService>().To<ComplexGameCountryManager>();
             Bind<IComplexGameCountryDal>().To<EfComplexGameCountryDal>();
 
-
+            Bind<IDataService>().To<DataManager>();
 
         }
     }

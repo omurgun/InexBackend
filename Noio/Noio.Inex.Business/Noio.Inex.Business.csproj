@@ -60,6 +60,7 @@
     <Compile Include="Abstract\IComplexGameCountryService.cs" />
     <Compile Include="Abstract\IComplexGameDeveloperService.cs" />
     <Compile Include="Abstract\IComplexGamePublisherService.cs" />
+    <Compile Include="Abstract\IDataService.cs" />
     <Compile Include="Abstract\IGameCountryService.cs" />
     <Compile Include="Abstract\IGameDeveloperService.cs" />
     <Compile Include="Abstract\IGamePublisherService.cs" />
@@ -67,6 +68,7 @@
     <Compile Include="Concrete\ComplexGameCountryManager.cs" />
     <Compile Include="Concrete\ComplexGameDeveloperManager.cs" />
     <Compile Include="Concrete\ComplexGamePublisherManager.cs" />
+    <Compile Include="Concrete\DataManager.cs" />
     <Compile Include="Concrete\GameCountryManager.cs" />
     <Compile Include="Concrete\GameDeveloperManager.cs" />
     <Compile Include="Concrete\GameManager.cs" />
