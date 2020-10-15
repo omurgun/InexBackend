@@ -15,6 +15,7 @@ namespace Noio.Inex.WebApi.Controllers
     {
         private IDataService _dataService = InstanceFactory.GetInstance<IDataService>();
 
+        //post
         [ResponseType(typeof(Data))]
         [HttpPost]
         public IHttpActionResult PostUserRegister(Data data)
