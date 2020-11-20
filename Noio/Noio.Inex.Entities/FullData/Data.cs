@@ -10,10 +10,8 @@ namespace Noio.Inex.Entities.FullData
 {
     public class Data
     {
-        public Game Game { get; set; }
-        public GameDeveloper GameDeveloper { get; set; }
-        public GameCountry GameCountry { get; set; }
-        public GamePublisher GamePublisher { get; set; }
+        public List<Game> Game { get; set; }
+        
         
 
     }

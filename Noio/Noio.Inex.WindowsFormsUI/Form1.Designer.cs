@@ -30,20 +30,6 @@
         {
             this.dgwGames = new System.Windows.Forms.DataGridView();
             this.btnRemove = new System.Windows.Forms.Button();
-            this.gbxUpdate = new System.Windows.Forms.GroupBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.cbxRoleUpdate = new System.Windows.Forms.ComboBox();
-            this.tbxUserSurnameUpdate = new System.Windows.Forms.TextBox();
-            this.tbxUserPasswordUpdate = new System.Windows.Forms.TextBox();
-            this.tbxUserEmailUpdate = new System.Windows.Forms.TextBox();
-            this.tbxUserUserNameUpdate = new System.Windows.Forms.TextBox();
-            this.tbxUserNameUpdate = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.btnUpdate = new System.Windows.Forms.Button();
             this.gbxGameAdd = new System.Windows.Forms.GroupBox();
             this.label9 = new System.Windows.Forms.Label();
             this.cbxCountriesAdd = new System.Windows.Forms.ComboBox();
@@ -78,7 +64,6 @@
             this.dgwDevelopers = new System.Windows.Forms.DataGridView();
             this.dgwCountries = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dgwGames)).BeginInit();
-            this.gbxUpdate.SuspendLayout();
             this.gbxGameAdd.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -106,135 +91,6 @@
             this.btnRemove.TabIndex = 27;
             this.btnRemove.Text = "Sil";
             this.btnRemove.UseVisualStyleBackColor = true;
-            // 
-            // gbxUpdate
-            // 
-            this.gbxUpdate.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.gbxUpdate.Controls.Add(this.label6);
-            this.gbxUpdate.Controls.Add(this.cbxRoleUpdate);
-            this.gbxUpdate.Controls.Add(this.tbxUserSurnameUpdate);
-            this.gbxUpdate.Controls.Add(this.tbxUserPasswordUpdate);
-            this.gbxUpdate.Controls.Add(this.tbxUserEmailUpdate);
-            this.gbxUpdate.Controls.Add(this.tbxUserUserNameUpdate);
-            this.gbxUpdate.Controls.Add(this.tbxUserNameUpdate);
-            this.gbxUpdate.Controls.Add(this.label1);
-            this.gbxUpdate.Controls.Add(this.label2);
-            this.gbxUpdate.Controls.Add(this.label3);
-            this.gbxUpdate.Controls.Add(this.label4);
-            this.gbxUpdate.Controls.Add(this.label5);
-            this.gbxUpdate.Controls.Add(this.btnUpdate);
-            this.gbxUpdate.Location = new System.Drawing.Point(12, 393);
-            this.gbxUpdate.Name = "gbxUpdate";
-            this.gbxUpdate.Size = new System.Drawing.Size(283, 391);
-            this.gbxUpdate.TabIndex = 28;
-            this.gbxUpdate.TabStop = false;
-            this.gbxUpdate.Text = "Kullanıcı Güncelle";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(25, 272);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(40, 13);
-            this.label6.TabIndex = 25;
-            this.label6.Text = "Roller :";
-            // 
-            // cbxRoleUpdate
-            // 
-            this.cbxRoleUpdate.FormattingEnabled = true;
-            this.cbxRoleUpdate.Location = new System.Drawing.Point(113, 269);
-            this.cbxRoleUpdate.Name = "cbxRoleUpdate";
-            this.cbxRoleUpdate.Size = new System.Drawing.Size(157, 21);
-            this.cbxRoleUpdate.TabIndex = 24;
-            // 
-            // tbxUserSurnameUpdate
-            // 
-            this.tbxUserSurnameUpdate.Location = new System.Drawing.Point(113, 95);
-            this.tbxUserSurnameUpdate.Name = "tbxUserSurnameUpdate";
-            this.tbxUserSurnameUpdate.Size = new System.Drawing.Size(157, 20);
-            this.tbxUserSurnameUpdate.TabIndex = 23;
-            // 
-            // tbxUserPasswordUpdate
-            // 
-            this.tbxUserPasswordUpdate.Location = new System.Drawing.Point(113, 226);
-            this.tbxUserPasswordUpdate.Name = "tbxUserPasswordUpdate";
-            this.tbxUserPasswordUpdate.Size = new System.Drawing.Size(157, 20);
-            this.tbxUserPasswordUpdate.TabIndex = 22;
-            // 
-            // tbxUserEmailUpdate
-            // 
-            this.tbxUserEmailUpdate.Location = new System.Drawing.Point(113, 183);
-            this.tbxUserEmailUpdate.Name = "tbxUserEmailUpdate";
-            this.tbxUserEmailUpdate.Size = new System.Drawing.Size(157, 20);
-            this.tbxUserEmailUpdate.TabIndex = 21;
-            // 
-            // tbxUserUserNameUpdate
-            // 
-            this.tbxUserUserNameUpdate.Location = new System.Drawing.Point(113, 139);
-            this.tbxUserUserNameUpdate.Name = "tbxUserUserNameUpdate";
-            this.tbxUserUserNameUpdate.Size = new System.Drawing.Size(157, 20);
-            this.tbxUserUserNameUpdate.TabIndex = 20;
-            // 
-            // tbxUserNameUpdate
-            // 
-            this.tbxUserNameUpdate.Location = new System.Drawing.Point(113, 54);
-            this.tbxUserNameUpdate.Name = "tbxUserNameUpdate";
-            this.tbxUserNameUpdate.Size = new System.Drawing.Size(157, 20);
-            this.tbxUserNameUpdate.TabIndex = 19;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(24, 226);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(34, 13);
-            this.label1.TabIndex = 18;
-            this.label1.Text = "Şifre :";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(24, 184);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(38, 13);
-            this.label2.TabIndex = 17;
-            this.label2.Text = "Email :";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(22, 146);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(73, 13);
-            this.label3.TabIndex = 16;
-            this.label3.Text = "Kullanıcı Adı  :";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(22, 102);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(43, 13);
-            this.label4.TabIndex = 15;
-            this.label4.Text = "Soyad :";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(22, 61);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(26, 13);
-            this.label5.TabIndex = 14;
-            this.label5.Text = "Ad :";
-            // 
-            // btnUpdate
-            // 
-            this.btnUpdate.Location = new System.Drawing.Point(123, 327);
-            this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(86, 33);
-            this.btnUpdate.TabIndex = 11;
-            this.btnUpdate.Text = "Güncelle";
-            this.btnUpdate.UseVisualStyleBackColor = true;
             // 
             // gbxGameAdd
             // 
@@ -564,14 +420,11 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.gbxGameAdd);
             this.Controls.Add(this.btnRemove);
-            this.Controls.Add(this.gbxUpdate);
             this.Controls.Add(this.dgwGames);
             this.Name = "Form1";
             this.Text = "InexAdminPanel";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgwGames)).EndInit();
-            this.gbxUpdate.ResumeLayout(false);
-            this.gbxUpdate.PerformLayout();
             this.gbxGameAdd.ResumeLayout(false);
             this.gbxGameAdd.PerformLayout();
             this.groupBox1.ResumeLayout(false);
@@ -591,20 +444,6 @@
 
         private System.Windows.Forms.DataGridView dgwGames;
         private System.Windows.Forms.Button btnRemove;
-        private System.Windows.Forms.GroupBox gbxUpdate;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.ComboBox cbxRoleUpdate;
-        private System.Windows.Forms.TextBox tbxUserSurnameUpdate;
-        private System.Windows.Forms.TextBox tbxUserPasswordUpdate;
-        private System.Windows.Forms.TextBox tbxUserEmailUpdate;
-        private System.Windows.Forms.TextBox tbxUserUserNameUpdate;
-        private System.Windows.Forms.TextBox tbxUserNameUpdate;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.GroupBox gbxGameAdd;
         private System.Windows.Forms.TextBox tbxGameSlug;
         private System.Windows.Forms.Button btnNewGameAdd;
